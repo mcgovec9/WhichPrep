@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">WhichPrep!</string>
+    <string name="quizBtn">Quiz</string>
+    <string name="statBtn">Stats</string>
+    <string name="aboutBtn">About</string>
+    <string name="aboutHead">About the App</string>
+    <string name="aboutText">The system is a mobile application that aims to educate foreign language speakers in their use of prepositions, through gamified learning.
+        This is a Computer Aided Language Learning App.
+        One of the main areas in which foreign language speakers make grammatical errors in English is through their use of prepositions.
+        E.g in, at, on etc. This app will help to alleviate this issue.</string>
+    <string name="blogsHead">Blog Links</string>
+    <string name="answerSuggestions">Answer Suggestions</string>
+    <string name="testLevel">Test Level</string>
+    <string name="startQuizBtn">Start Quiz!</string>
+    <string name="timePerQ">Time per Question</string>
+    <string name="timer">30</string>
+    <string name="level1">1</string>
+    <string name="level2">2</string>
+    <string name="level3">3</string>
+    <string name="level4">4</string>
+    <string name="picBtn">pic</string>
+    <string name="questionTitle">Question 1</string>
+    <string name="sentence"></string>
+    <string name="quizText">Take a Quiz</string>
+    <string name="statButton">statButton</string>
+    <string name="quizButton">quizButton</string>
+    <string name="statText">Stats</string>
+    <string name="aboutButton">aboutButton</string>
+    <string name="aboutBtnText">About</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="speech_prompt">Say something&#8230;</string>
+    <string name="speech_not_supported">Sorry! Your device doesn\'t support speech input</string>
+    <string name="tap_on_mic">Tap on mic to speak</string>
+</resources>

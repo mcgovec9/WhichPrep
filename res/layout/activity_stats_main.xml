@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="2dp"
+    android:background="@color/popUpWindow"
+    tools:context="com.example.conor.whichprep.StatsMainActivity">
+
+    <ListView
+        style="@style/scrollbar_shape_style"
+        android:background="@color/background"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:id="@+id/weakPreps"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="false"
+        android:layout_marginTop="24dp" />
+
+    <ListView
+        style="@style/scrollbar_shape_style"
+        android:background="@color/background"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:id="@+id/fairPreps"
+        android:layout_below="@+id/textView9"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ListView
+        style="@style/scrollbar_shape_style"
+        android:background="@color/background"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:id="@+id/strongPreps"
+        android:layout_below="@+id/textView10"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/background"
+        android:text="Weak"
+        android:id="@+id/textView6"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/background"
+        android:text="Fair"
+        android:id="@+id/textView9"
+        android:layout_below="@+id/weakPreps"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Strong"
+        android:textColor="@color/background"
+        android:id="@+id/textView10"
+        android:layout_below="@+id/fairPreps"
+        android:layout_alignRight="@+id/textView6"
+        android:layout_alignEnd="@+id/textView6" />
+</RelativeLayout>

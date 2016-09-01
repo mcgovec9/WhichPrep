@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/popUpWindow"
+    tools:context="com.example.conor.whichprep.PrepositionInfo"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Description:"
+        android:id="@+id/descTitle"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="42dp"
+        android:textColor="#ecf0f1"
+        android:paddingLeft="20dp"
+        android:layout_below="@+id/prep"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Example:"
+        android:id="@+id/exampleTitle"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ecf0f1"
+        android:paddingLeft="20dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/prep"
+        android:textSize="40dp"
+        android:textStyle="italic"
+        android:fontFamily="sans-serif-thin"
+        android:textColor="#ecf0f1"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:textStyle="italic"
+        android:fontFamily="sans-serif-thin"
+        android:id="@+id/desc"
+        android:textColor="#ecf0f1"
+        style="italic"
+        android:textSize="14dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_below="@+id/descTitle"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:textStyle="italic"
+        android:fontFamily="sans-serif-thin"
+        android:id="@+id/example"
+        android:textColor="#ecf0f1"
+        style="italic"
+        android:textSize="14dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_below="@+id/exampleTitle"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Test History:"
+        android:id="@+id/histTitle"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:textColor="#ecf0f1"
+        android:paddingLeft="10dp"
+        android:layout_below="@+id/example"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:textStyle="italic"
+        android:fontFamily="sans-serif-thin"
+        android:id="@+id/history"
+        android:textColor="#ecf0f1"
+        style="italic"
+        android:textSize="30dp"
+        android:layout_marginTop="46dp"
+        android:layout_below="@+id/histTitle"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

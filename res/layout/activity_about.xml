@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="10dp"
+    android:background="#34495e"
+    tools:context="com.example.conor.whichprep.AboutActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/aboutHead"
+        android:textColor="@color/background"
+        android:id="@+id/aboutHead"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ScrollView
+        style="@style/scrollbar_shape_style"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/aboutText"
+        android:layout_below="@+id/aboutHead"
+        android:background="@color/background"
+        android:layout_above="@+id/blogLinkHead">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="italic"
+            android:text="@string/aboutText"
+            android:id="@+id/textView"
+            android:fontFamily="sans-serif-thin"
+            android:textSize="23dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="5dp"
+            android:padding="5dp"
+             />
+    </ScrollView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/blogsHead"
+        android:textColor="@color/background"
+        android:id="@+id/blogLinkHead"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="10dp" />
+
+    <ListView
+        style="@style/scrollbar_shape_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/blogList"
+        android:layout_below="@+id/blogLinkHead"
+        android:layout_centerHorizontal="true"
+        android:background="@color/background"
+        />
+</RelativeLayout>

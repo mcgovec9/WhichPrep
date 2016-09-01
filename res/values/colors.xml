@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#27ae60</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="background">#ecf0f1</color>
+    <color name="text_border">#3498db</color>
+    <color name="popUpWindow">#34495e</color>
+    <drawable name="pink">#FF4081</drawable>
+    <drawable name="green">#2ecc71</drawable>
+</resources>
