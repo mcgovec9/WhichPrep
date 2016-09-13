@@ -1,7 +1,7 @@
 # WhichPrep
 Final Year Project
 
-WhichPrep is an educatinal application developed for Android. It aims to aid the user, typically a non-native English speaker, in 
+WhichPrep is an educational application developed for Android. It aims to aid the user, typically a non-native English speaker, in 
 their use of prepositional words in sentences. This is the main area in which people learning the English language have difficulty with.
 
 The app tests the user by presenting them with a series of sentences missing the prepositional word. These sentences are scraped dynamically from
