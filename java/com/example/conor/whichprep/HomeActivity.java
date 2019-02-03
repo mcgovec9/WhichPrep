@@ -56,7 +56,7 @@ public class HomeActivity extends AppCompatActivity {
         prefs = getSharedPreferences("com.example.conor.whichprep", MODE_PRIVATE);
 
         MyDbHandler dbHandler = new MyDbHandler(this, null, null, 1);
-
+        //Only run on first initialization of application
         if (dbHandler.isPrepEmpty()){
             dbHandler.addPrep(new Preposition("aboard", 2, "à bord", "a bordo", "auf, an Bord", "on or into (a ship, aircraft, train, or other vehicle).", "the plane crashed, killing all 158 people aboard", 0, 0));
             dbHandler.addPrep(new Preposition("about", 1, "au sujet de", "alrededor de, como, acia", "ungefähr, circa, über", "on the subject of; concerning. | Used to indicate movement within a particular area", "I was thinking about you", 0, 0));
